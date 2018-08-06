@@ -15,9 +15,11 @@
         };
     })();
 
-    calendarBox();
-    showCalendarData();
-    bindEvent();
+    window.onload = function () {
+        calendarBox();
+        showCalendarData();
+        bindEvent();
+    };
 
     // div中渲染html元素
     function calendarBox() {
